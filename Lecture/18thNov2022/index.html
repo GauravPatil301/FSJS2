@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS</title>
+    <style>
+        /*selectors, pseduo element, margin, padding, border, background, text, height and width*/
+        /* Child Sel */
+        /* div  p{
+            color: red;
+        } */
+        /* Adjacent Sibling Sel */
+        /* div ~ p {
+            color: blue;
+        } */
+        /* Pseudo Sel */
+        /* .warning::before{
+            content: "Danger";
+            color: red;
+            font-size: 25px;
+        }
+        .quote::after{
+            content:"_javascript";
+            color: #808080;
+            font-size: 7px;
+        } */
+        /* :hover :focus */
+        /* a:hover{
+            background-color: #808080;
+            color:red;
+        }
+        a:visited{
+            color:yellowgreen
+        } */
+        input[type=text]:focus{
+            color:brown;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+    <!-- <div class="warning">
+        <p>Please use the website Carefully</p>
+        <p>Please use the website Carefully</p>
+    </div>
+    <div class="quote">
+        <p>Please use the website Carefully</p>
+        <p>Please use the website Carefully</p>
+    </div> -->
+    <!-- <a href="https://www.google.com/" class="Google">Google</a> -->
+    Name:<input type="text">
+    Email:<input type="email">
+</body>
+</html>
