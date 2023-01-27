@@ -1,6 +1,6 @@
 # HTML and CSS Article Assignment
 
-○	On Web Server and HTML Element 
+○	On Web Server and HTML Element  
 	https://gauravpatil.hashnode.dev/introduction-to-web-and-html
 
 ○	Input Elements  
