@@ -3,7 +3,7 @@
 ## Live Site URL: [Visit Here]() :rocket:
 
 ## Screenshot
-![output](https://user-images.githubusercontent.com/102862547/214585713-de952398-c736-4efe-a0e4-a4e936cd1fa4.png) 
+![output](https://user-images.githubusercontent.com/102862547/215309886-5a8a878b-e6ad-4d6a-b5a4-57f634f115d4.png)
 
 
 ## Built with
