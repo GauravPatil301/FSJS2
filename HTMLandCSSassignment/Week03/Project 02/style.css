@@ -1,2 +1,92 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    background-color: #000000;
+    color: #fff;
+    height: 80px;
+    align-items: center;
+}
+
+.navbar div img{
+    width: 100px;
+    margin: 20px 90px;
+}
+
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #ffffff;    
+}
+
+.list :nth-child(1)::after{
+    content:"v";
+    display: inline;
+    font-size: 13px;
+    font-weight:700;
+    padding-left: 6px;
+}
+
+.grow-list .list{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 700px;
+}
+
+.button-small{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 220px;
+    color:#ffffff;
+    font-weight: 600;
+    background-color: #ba0cc5;
+}
+
+/* hero section */
+
+.hero{
+    background:url("./assets/bg.png") no-repeat;
+    background-size: cover;
+    height: 950px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-heading{
+    font-size: 70px;
+    width: 60%;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.hero-description{
+    line-height: 40px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.button-large{
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #ba0cc5;
+}
