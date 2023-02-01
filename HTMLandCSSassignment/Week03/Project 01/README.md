@@ -1,9 +1,9 @@
-# Medifine-P05
+# SEO Master P01
 
-## Live Site URL: [Visit Here]() :rocket:
+## Live Site URL: [Visit Here](https://seo-master-p1.netlify.app/) :rocket:
 
 ## Screenshot
-![output]()
+![output](https://user-images.githubusercontent.com/102862547/215752892-3f6536a3-0eda-4a32-9491-3a0984d3f726.png)
 
 
 ## Built with
