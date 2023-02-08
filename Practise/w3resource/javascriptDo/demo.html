@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        /* Float four columns side by side */
+        .column {
+            float: left;
+            width: 22%;
+            padding: 0 10px;
+        }
+
+        /* Remove extra left and right margins, due to padding */
+        .row {
+            margin: 0 5px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #ffffff;
+            width: auto;
+            height: 100%;
+            transition: 0.3s;
+            border-radius: 10%;
+            border: solid #f39c12 2px;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .p textheight {
+            text-align: center;
+            font-size: 100px;
+        }
+
+        .button {
+            text-align: center;
+            border-radius: 15px;
+            display: inline-block;
+            border: none;
+            background-color: #f39c12;
+            padding: 10px;
+            color: #000000;
+            font-size: 18px;
+            box-shadow: 5px 10px #dddddd;
+        }
+
+        .fontStyle {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <h1 class="fontStyle">Jeevan Nivesh Plan</h1>
+                    <hr style="width:80%;text-align:center; color: #000000;">
+                    <p>plan for the wishes that come after all plans</p>
+                    <button class="button"><b>KNOW MORE</b></button>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <h1 class="fontStyle">iSelect Term Plan</h1>
+                    <hr style="width:80%;text-align:center; color: #000000;">
+                    <p>I select the terms of my life </p>
+                    <button class="button"><b>KNOW MORE</b></button>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <h1 class="fontStyle">Smart Suraksha Plan</h1>
+                    <hr style="width:80%;text-align:center; color: #000000;">
+                    <p>Make the smart choice to secure your family's happiness.</p>
+                    <button class="button"><b>KNOW MORE</b></button>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <h1 class="fontStyle">iNvestshield Plan</h1>
+                    <hr style="width:80%;text-align:center; color: #000000;">
+                    <p>Give your retirement a happy beginning with our pension plan.</p>
+                    <button class="button"><b>KNOW MORE</b></button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h1 class="fontStyle">Pradhan Mantri Jeevan Jyoti Bima Yojna</h1>
+                    <hr style="width:80%;text-align:center; color: #000000;">
+                    <p>Ensure a secure future for your loved ones</p>
+                    <button class="button"><b>KNOW MORE</b></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
