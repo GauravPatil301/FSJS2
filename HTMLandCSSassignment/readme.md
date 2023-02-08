@@ -25,7 +25,7 @@
 - CSS
 - Flexbox
 
-## Tailwind CSS Projects ![Github]()
+## Tailwind CSS Projects 
 
 ## Connect With Me
 - Linkedin - [Gaurav Patil](https://www.linkedin.com/in/gaurav-patil301/)
