@@ -6,7 +6,7 @@
 
 ### Output
 
-![Project 1](./Project%201/output.png)
+![Project 1](https://github.com/GauravPatil301/FSJS2/tree/main/HTMLandCSSassignment/Week04/project1)
 
 - Create HTML and CSS again.
 
@@ -16,7 +16,7 @@
 
 ### Output
 
-![Project 2](./Project%202/output.png)
+![Project 2](https://github.com/GauravPatil301/FSJS2/tree/main/HTMLandCSSassignment/Week04/Project2)
 
 - Create HTML and CSS again.
 
@@ -26,7 +26,7 @@
 
 ### Output
 
-![Project 1](./Project%203/Output.png)
+![Project 1](https://github.com/GauravPatil301/FSJS2/tree/main/HTMLandCSSassignment/Week04/Project3)
 
 - Create HTML and CSS again.
 
