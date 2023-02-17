@@ -5,7 +5,17 @@
 <h2>JavaScript Variables</h2>
 
 <p id="demo"></p>
+<script>
+    // create an object
+    const person ={
+        firstName:"John",
+        lastName:'Doe',
+        id: 5566
+    };
 
+    //display some data from the object
+    document.getElementById("demo").innerHTML=person['firstName']+" "+person["lastName"];
+</script>
 
 </body>
 </html>
