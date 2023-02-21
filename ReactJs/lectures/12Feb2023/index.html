@@ -17,14 +17,14 @@
 
         // const csss = {border:"2px solid pink",backgroundColor:"yellow"}
 
-        const header = (
+        const Header = (
             <header className="">
                 <h1>Hello</h1>
                 <p>Hello FSJS 2</p>
             </header>
             );
             
-            const main = (
+            const Main = (
                 <main style={csss}>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, porro!
@@ -35,7 +35,7 @@
                 </main>
             );
 
-            const footer = (
+            const Footer = (
                 <footer>
                     <p>Copyright @ 2023</p>
                 </footer>
@@ -44,7 +44,7 @@
         // To include JSX element inside another Element we use {}        
         const app = (
             <>
-                {header} {main} {footer} 
+                {Header} {Main} {Footer} 
             </>
         )   
         ReactDOM.render(app,rootElement)
