@@ -10,11 +10,11 @@
 <body>
     <div>
         <!-- navbar start -->
-        <div class="flex-items-center bg-[#2c2c32] text-[#fff]">
+        <div class="flex items-center bg-[#2c2c32] text-[#fff] lg:pl-14 xl:pl-44 xl-pr-48 sticky top-0 z-10">
             <div class="md:mr-32">
                 <ul class="flex items-center">
                     <div class="flex text-lg items-center w-52 ml-4">
-                        <img src="./assets/asset 26.png" alt="logo">
+                        <img class="w-6 h-6 mr-4" src="./assets/asset 26.png" alt="logo">
                         <p>Visual Studio Code</p>
                     </div>
                     <!-- for larger screens -->
@@ -30,6 +30,49 @@
                 </ul>
             </div>
             <!-- for smaller screeens -->
+            <div>
+                <img class="w-9 h-8 hover:bg-[#0066b8] absolute fixed right-5 top-3 visible lg:hidden" src="./assets/menu.png" alt="menu"/>
+            </div>
+            <!-- for larger screens -->
+            <div class="flex ml-7 invisible lg:visible">
+                <p class="flex pr-16 h-14 items-center bg-[#444444 ] hover:bg-gray-600">
+                    <img class="lg:w-4 lg:ml-2 lg:mr-4" src="./assets/asset 0.svg" alt="search-icon"/>Search Docs
+                </p>
+                <button class="fixed lg:static lg:flex lg:items-center pr-0 lg:pr-4 bg-[#0066b8] hover:bg-[#145587]">
+                    <img class="w-0 lg:w-4 ml-0 lg:ml-2 mr-2 lg:mr-2" src="./assets/asset 2.svg" alt="download-logo"/>
+                    <p>Download</p>
+                </button>
+            </div>
+        </div>
+        <!-- navbar-end -->
+        <!-- version section start -->
+        <div class="bg-[#25252b] text-[#fff] px-16 flex justify-center text-center items-center h-17 md:h-12">
+            <p>
+                <span class="text-[#0098ff] hover:underline">Version 1.74</span> is now available! Read about the new features and fixes from November.
+            </p>
+        </div>
+        <!-- version section end -->
+        <!-- hero section start -->
+        <div class="lg:flex text-[#fff] bg-[#2c2c32] lg:pl-14 xl:pl-44 xl:pr-48">
+            <!-- hero left -->
+            <div class="flex justify-center w-[100vw] lg:w-[390px] text-center">
+                <div class="mt-2 lg:mt-14">
+                    <h1 class="text-5xl">Code editing.</h1>
+                    <h1 class="text-5xl">Redefined.</h1>
+                    <p class="mt-4 font-light">Free. Built on open source. Runs everywhere.</p>
+                    <div class="lg:w-[280px] lg: lg:ml-4 mt-6">
+                        <div class="flex justify-center w-[280px] bg-[#0066b8]">
+                            <button class="border-r-2 border-[#145587]">
+                                <h1 class="pt-2 px-8 fonnt-medium">Download for Windows</h1>
+                                <p class="pb-2 text-sm">Stable Build</p>
+                            </button>
+                            <button class="w-10 hover:bg-[#145587]">
+                                <img class="w-8 pl-3" src="./assets/chevronDown.svg">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
